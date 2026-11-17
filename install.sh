@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_USER="jihadmia"
-REPO_NAME="whisper-anywhere"
+REPO_USER="jihadmia35"
+REPO_NAME="Whisper-Anywhere"
 TARGET_DIR="$HOME/.local/bin"
 CONFIG_DIR="$HOME/.config/whisper-anywhere"
 

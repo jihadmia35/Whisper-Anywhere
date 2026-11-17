@@ -1,22 +1,20 @@
-# Whisper Anywhere
+# 🎙️ Whisper Anywhere
 
-A lightweight, high-performance voice dictation utility for Linux. Press a hotkey, speak, press it again, and your transcribed speech is automatically pasted right where your cursor is placed.
-
-Powered by Groq's Whisper API (`whisper-large-v3-turbo`) and written in 100% native Rust.
+> **Voice dictation anywhere on Linux powered by Groq Whisper (`whisper-large-v3-turbo`) with automatic multi-API-key failover and hands-free auto-paste.**
 
 ---
 
-## Highlights
+## ✨ Highlights
 
-- **Near-Instant Transcription**: Groq LPUs transcribe voice audio in roughly 0.2 to 0.4 seconds.
-- **Hands-Free Auto-Paste**: Immediately inputs text into the active window (`Ctrl+V`) without manual intervention.
-- **Smart Key Rotation & Auto-Failover**: Support for multiple free Groq API keys. If one key reaches rate limits, the tool rotates to the next key automatically.
-- **Minimal & Distraction-Free**: Runs quietly without notification spam.
-- **Single Native Binary**: Written in Rust for minimal memory usage and rapid startup.
+- ⚡ **Near-Instant Transcription**: Groq LPUs transcribe voice audio in roughly 0.2 to 0.4 seconds.
+- 🎯 **Hands-Free Auto-Paste**: Immediately inputs text into the active window (`Ctrl+V`) without manual intervention.
+- 🔄 **Smart Key Rotation & Auto-Failover**: Support for multiple free Groq API keys. If one key reaches rate limits, the tool rotates to the next key automatically.
+- 🔕 **Minimal & Distraction-Free**: Runs quietly without notification spam.
+- 🦀 **Single Native Binary**: Written in Rust for minimal memory usage and rapid startup.
 
 ---
 
-## Free Tier Usage & Capacity
+## 🎁 Free Tier Usage & Capacity
 
 Groq offers a generous free tier for speech-to-text without requiring a credit card:
 
@@ -34,14 +32,14 @@ For everyday writing, coding, and chat, this is effectively unlimited.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Build and Install
 Clone the repository and run the build script:
 
 ```bash
-git clone https://github.com/jihadmia/whisper-anywhere.git
-cd whisper-anywhere
+git clone https://github.com/jihadmia35/Whisper-Anywhere.git
+cd Whisper-Anywhere
 ./build.sh
 ```
 
@@ -93,7 +91,7 @@ sudo systemctl restart ydotool
 
 ---
 
-## Configuration Reference
+## ⚙️ Configuration Reference
 
 Configuration is stored at `~/.config/whisper-anywhere/config.json`:
 
