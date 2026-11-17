@@ -1,0 +1,8 @@
+{
+  "groq_api_keys": [
+    "YOUR_GROQ_API_KEY_HERE"
+  ],
+  "model": "whisper-large-v3-turbo",
+  "language": "",
+  "duration": 0
+}

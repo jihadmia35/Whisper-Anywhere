@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target
+Cargo.lock
+
+# User configuration & secrets
+config.json
+
+# Temporary audio and state files
+*.wav
+*.pid
+whisper_anywhere_*.json
+
+# Backups and OS files
+**/*.rs.bk
+.DS_Store
